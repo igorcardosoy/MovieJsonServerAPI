@@ -1,0 +1,87 @@
+{
+  "tv": [
+    {
+      "title": "Dungeon Meshi",
+      "tmdb_id": "207784",
+      "tmdb_type": "tv",
+      "filter": [
+        "anime"
+      ],
+      "links": [
+        "https://www.netflix.com/browse?jbv=81564899"
+      ],
+      "id": 1
+    },
+    {
+      "title": "Stranger Things",
+      "tmdb_id": "66732",
+      "tmdb_type": "tv",
+      "filter": [
+        "serie"
+      ],
+      "links": [
+        "https://www.netflix.com/browse?jbv=80057281"
+      ],
+      "id": 2
+    },
+    {
+      "title": "My Hero Academia",
+      "tmdb_id": "65930",
+      "tmdb_type": "tv",
+      "filter": [],
+      "links": [
+        "https://www.netflix.com/browse?jbv=80057281",
+        "https://www.crunchyroll.com/pt-br/series/G6NQ5DWZ6/my-hero-academia"
+      ],
+      "id": 3
+    },
+    {
+      "title": "The Boys",
+      "tmdb_id": "76479",
+      "tmdb_type": "tv",
+      "filter": [
+        "serie"
+      ],
+      "links": [
+        "https://www.primevideo.com/dp/0O72M293BABLRSKIKQSD5LNLQU?ref_=dvm_pds_tit_br_sw_s_g_mkw_s5G4AdjqTkt-dc&mrntrk=pcrid_687376614847_slid__pgrid_158606134251_pgeo_9074274_x__adext__ptid_kwd-825776403780&_mkw_s5G4AdjqTkt-dc&mrntrk=pcrid_687376614847_slid__pgrid_158606134251_pgeo_9074274_x__adext__ptid_kwd-825776403780&gclid=CjwKCAjwyo60BhBiEiwAHmVLJRuulShv94woWVI-5ljjXkH4ASYizhaWZUYDjbW56vQhYITe00xVVBoChjcQAvD_BwE&gclsrc=aw.ds"
+      ],
+      "id": 4
+    },
+    {
+      "title": "Game of Thrones",
+      "tmdb_id": "1399",
+      "tmdb_type": "tv",
+      "filter": [
+        "serie"
+      ],
+      "links": [
+        "https://www.max.com/br/pt/shows/game-of-thrones/4f6b4985-2dc9-4ab6-ac79-d60f0860b0ac"
+      ],
+      "id": 5
+    }
+  ],
+  "movie": [],
+  "collection": [
+    {
+      "title": "Star Wars: Coleção",
+      "tmdb_id": "10",
+      "tmdb_type": "collection",
+      "filter": [
+        "film"
+      ],
+      "links": [
+        "https://www.disneyplus.com/pt-br/brand/star-wars"
+      ],
+      "id": 1
+    }
+  ],
+  "users": [
+    {
+      "email": "igorfilipicardoso@gmail.com",
+      "password": "$2a$10$g4eMo4Yqh.5bMt6eQPeEWOM02jxy8kTXs45E6ptB/F91bBb9nKfzW",
+      "username": "igorcardosoy",
+      "profilePicture": "https://cdn.discordapp.com/avatars/370219389540106242/aaf81a3bcf12f0e1c7865dc796e3e917.png",
+      "id": 2
+    }
+  ]
+}

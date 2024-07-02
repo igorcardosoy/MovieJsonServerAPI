@@ -77,11 +77,11 @@
   ],
   "users": [
     {
-      "email": "igorfilipicardoso@gmail.com",
-      "password": "$2a$10$g4eMo4Yqh.5bMt6eQPeEWOM02jxy8kTXs45E6ptB/F91bBb9nKfzW",
-      "username": "igorcardosoy",
-      "profilePicture": "https://cdn.discordapp.com/avatars/370219389540106242/aaf81a3bcf12f0e1c7865dc796e3e917.png",
-      "id": 2
+      "email": "email@email.com",
+      "password": "$2a$10$1TmHv89TquS.eCxogzd7m.LsgIvdfjvCCDwKCwhKYIRi4tOugAi1y",
+      "username": "NomeAqui",
+      "profilePicture": "https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec",
+      "id": 1
     }
   ]
 }

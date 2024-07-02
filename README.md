@@ -1,67 +1,118 @@
-﻿# movie-api
+# Movie API
 
- ### npm install
+For [MoviesNextJS](https://github.com/igorcardosoy/MoviesNextJS)
 
- ### npm start
+## Getting Started
 
-## /users - GET to view users and POST to add users.
+### Installation
 
-### POST for add new users.
-    options = {
-        method: 'POST',
-        body: JSON.stringify({ "email": ..., "password": ... }),
-        headers: {
+Install the dependencies:
+
+```bash
+npm install
+```
+
+### Starting the Server
+
+Start the server:
+
+```bash
+npm start
+```
+
+## API Endpoints
+
+### /users
+
+- **GET**: View all users.
+- **POST**: Add a new user.
+
+#### Example:
+
+```javascript
+const options = {
+    method: 'POST',
+    body: JSON.stringify({ "email": "example@example.com", "password": "yourpassword" }),
+    headers: {
         "Content-type": "application/json; charset=UTF-8"
-        }
     }
+};
+```
 
-## /login - POST to get the accessToken for verification
-    options = {
-        method: 'POST',
-        body: JSON.stringify({ "email": ..., "password": ... }),
-        headers: {
+### /login
+
+- **POST**: Get the accessToken for verification.
+
+#### Example:
+
+```javascript
+const options = {
+    method: 'POST',
+    body: JSON.stringify({ "email": "example@example.com", "password": "yourpassword" }),
+    headers: {
         "Content-type": "application/json; charset=UTF-8"
-        }
     }
+};
+```
 
+### /660/users
 
-## /660/users - GET for verify with accessToken
+- **GET**: Verify with accessToken.
 
-    options = {
-        method: 'GET',
-        headers: {
-            "Content-type": "application/json; charset=UTF-8",
-            "Authorization": `Bearer ${accessToken}`
-        },
+#### Example:
+
+```javascript
+const options = {
+    method: 'GET',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8",
+        "Authorization": `Bearer ${accessToken}`
     }
+};
+```
 
-## /movies and /tv - GET to view, POST to add.
+### /movies and /tv
 
-    const options = {
-        method: 'POST',
-        body: JSON.stringify({ "title": title, "tmdb_id": tmdb_id, "tmdb_type": tmdb_type, "filter": filter, "link": link }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8"
-        }
+- **GET**: View all movies or TV shows.
+- **POST**: Add a new movie or TV show.
+
+#### Example:
+
+```javascript
+const options = {
+    method: 'POST',
+    body: JSON.stringify({ "title": "Movie Title", "tmdb_id": "12345", "tmdb_type": "movie", "filter": "genre", "link": "http://example.com" }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
     }
+};
+```
 
-## /movies/id and /tv/id - GET to view, PUT to update, DELETE to delete.
+### /movies/:id and /tv/:id
 
-    const options = {
-        method: 'PUT',
-        body: JSON.stringify({ "title": title, "tmdb_id": tmdb_id, "tmdb_type": tmdb_type, "filter": filter }),
-        headers: {
-            "Content-type": "application/json; charset=UTF-8"
-        }
+- **GET**: View a specific movie or TV show by ID.
+- **PUT**: Update a specific movie or TV show by ID.
+- **DELETE**: Delete a specific movie or TV show by ID.
+
+#### Example for PUT:
+
+```javascript
+const options = {
+    method: 'PUT',
+    body: JSON.stringify({ "title": "Updated Movie Title", "tmdb_id": "12345", "tmdb_type": "movie", "filter": "updated genre" }),
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
     }
+};
+```
 
-###
+#### Example for DELETE:
 
-    const options = {
-            method: 'DELETE',
-            headers: {
-                "Content-type": "application/json; charset=UTF-8"
-            }
-        }
-# MovieJsonServer
-# MovieJsonServerAPI
+```javascript
+const options = {
+    method: 'DELETE',
+    headers: {
+        "Content-type": "application/json; charset=UTF-8"
+    }
+};
+```
